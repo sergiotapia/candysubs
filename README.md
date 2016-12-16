@@ -1,4 +1,6 @@
-![](http://i.imgur.com/TOFZhyF.png)
+<p align="center">
+  <img src="http://i.imgur.com/TOFZhyF.png" />
+</p>
 
 # Candysub
 
