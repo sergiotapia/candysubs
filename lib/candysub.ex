@@ -8,7 +8,8 @@ defmodule Candysub do
   end
 
   def process(args) do
-    args[:path]
+    filepath = args[:path]
+    Candysub.Downloader.process(filepath)
   end
 
   defp parse_args(args) do
