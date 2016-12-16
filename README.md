@@ -1,3 +1,5 @@
+![](http://i.imgur.com/TOFZhyF.png)
+
 # Candysub
 
 Candysub is a command-line program to download subtitles for all of your media,
@@ -24,4 +26,4 @@ single file deploys.
 
 ## Wishlist
 
-- [ ] Folders as param - process folders recursively for all media files. 
+- [ ] Folders as param - process folders recursively for all media files.
