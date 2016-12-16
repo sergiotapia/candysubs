@@ -36,7 +36,7 @@ defmodule Candysub.Downloader do
   end
 
   defp download(url) do
-    case HTTPoison.get(url) do
+    case HTTPoison.get(url, %{}, hackney: [cookie: ["LanguageFilter=en"]]) do
       {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->
         body
       {:ok, %HTTPoison.Response{status_code: 404}} ->
